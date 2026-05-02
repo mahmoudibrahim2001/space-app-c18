@@ -72,11 +72,7 @@ class PlanetDetails extends StatelessWidget {
 
                   Text.rich(
                     TextSpan(
-                      style: const TextStyle(
-                        fontSize: 16,
-                        color: Colors.white,
-                        height: 2,
-                      ),
+                      style: Theme.of(context).textTheme.bodyMedium,
                       children: [
                         const TextSpan(
                           text: "Distance from Sun (km) : ",
